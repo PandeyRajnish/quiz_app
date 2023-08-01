@@ -26,9 +26,7 @@ class StartScreen extends StatelessWidget {
           ),
           const SizedBox(height: 30),
           OutlinedButton.icon(
-            onPressed: () {
-              startQuiz();  // passing a Anonymous function or pointer to an anonymous function as a value to onpressed
-            },
+            onPressed: startQuiz, // same as previous one like startQuiz()
             style: OutlinedButton.styleFrom(
               foregroundColor: Colors.white,
             ),
